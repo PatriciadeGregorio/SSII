@@ -15,13 +15,37 @@
  * @param {Object} Auth service used to retrieve the user info
  * @param {Object} UtilesService - service used
  **/
-function MainPageController() {
-  this = vm;
-    console.log('hola');
+
+function MainPageCtrl() {
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:false
+            },
+            1000:{
+                items:1,
+                nav:true,
+                loop:false
+            }
+        },
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause:false
+      });
+    });
+
 };
 
-angular.module('practica1SsiiApp').component('app.main', {
-  templateUrl: './main_page.html',
-  controller: MainPageController
-}).
-  controller('mainCtrl', MainPageController);
+angular.module('practica1SsiiApp').component('home', {
+  templateUrl: 'main_page/main_page.html',
+  controller: MainPageCtrl
+});

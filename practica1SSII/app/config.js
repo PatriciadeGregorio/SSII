@@ -2,10 +2,16 @@
 
 angular.module('practica1SsiiApp')
 
-    .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
-        $stateProvider
-            .state('app.main', {
-                url: '/',
-                template: './main_page/main_page.html'
-            });
+    .config(['$urlRouterProvider', '$stateProvider', HomeService,
+    function($urlRouterProvider, $stateProvider, HomeService) {
+      $urlRouterProvider.otherwise('/home');
+      $stateProvider
+        .state('home', {
+            url: '/home',
+            template: '<home></home>',
+            resolve: {
+              'gameList': HomeService.getHomeGames()
+            }
+        });
     }]);
+

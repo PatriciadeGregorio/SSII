@@ -15,6 +15,7 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="main_page/main_page.css">
     <!-- endbuild -->
   </head>
   <body ng-app="practica1SsiiApp">
@@ -49,15 +50,7 @@
         </div>
       </div>
     </div>
-    <div class="owl-carousel">
-      <div> <img src="http://fakeimg.pl/2000x1200/"> </div>
-      <div><img src="http://fakeimg.pl/1200x720/"> </div>
-      <div> <img src="http://fakeimg.pl/1200x720/"> </div>
-      <div><img src="http://fakeimg.pl/1200x720/"> </div>
-      <div> <img src="http://fakeimg.pl/1200x720/"> </div>
-      <div> <img src="http://fakeimg.pl/1200x720/"> </div>
-      <div> <img src="http://fakeimg.pl/1200x720/"> </div>
-    </div>
+    <home></home>
 
     <div class="footer">
       <div class="container">
@@ -87,14 +80,10 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="main_page/main_page.js"></script>
         <script src="./config.js"></script>
         <script src="../bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
         <!-- endbuild -->
 
-        <script>
-          $(document).ready(function(){
-            $('.owl-carousel').owlCarousel();
-          });
-      </script>
 </body>
 </html>
