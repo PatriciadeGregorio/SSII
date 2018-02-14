@@ -1,6 +1,4 @@
 {
-
-
   "gamesList": [
 
   {
@@ -11,7 +9,7 @@
   {
     "game": "The Binding of Isaac: Afterbirth+",
     "description": "The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety. ",
-    "imageURL": "https://media.redadn.es/imagenes/the-binding-of-isaac-afterbirth_302640.jpg",
+    "imageURL": "https://media.redadn.es/imagenes/the-binding-of-isaac-afterbirth_302640.jpg"
   },
   {
     "game": "Fifa18",

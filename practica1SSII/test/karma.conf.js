@@ -33,6 +33,9 @@ module.exports = function(config) {
       'bower_components/angular-touch/angular-touch.js',
       'bower_components/angular-ui-router/release/angular-ui-router.js',
       'bower_components/owl.carousel/dist/owl.carousel.js',
+      'bower_components/angular-owl-carousel-directive/dist/angular-owl-carousel-directive.min.js',
+      'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
+      'bower_components/angular-ui-carousel/dist/ui-carousel.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',
