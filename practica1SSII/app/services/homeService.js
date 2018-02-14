@@ -1,8 +1,11 @@
-function HomeService($http) {
+function HomeService($http, $q) {
   service = {};
   service.getHomeGames = function(){
-    return $http.get('').then(function(resp) {
-      return resp;
+    var deferred = $q.defer(),
+        games = null;
+    return $http.get('../mocks/mock_games.json').then(function(resp) {
+        games = deferred.resolve(resp);
+        return deferred.promise;
     });
   }
   return service;
