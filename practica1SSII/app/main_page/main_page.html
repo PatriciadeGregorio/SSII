@@ -2,14 +2,17 @@
       slides="vm.gameList"
       slides-to-show="1"
       slides-to-scroll="1"
-      initial-slide="1"
       autoplay="true"
-      autoplay-speed="2000"
+      initial-slide="1"
       dots="true">
 
   <carousel-item>
-      <img ng-src="{{item.imageURL}}" alt="{{item.title}}" />
-      <h3> {{item.game}} </h3>
-      <p> {{item.description}} </p>
+      <div style="text-align: center;" back-img="{{item.imageURL}}" >
+      <div style="min-height: 100vh">
+          <h2 style="line-height: 100vh;">{{item.game}}</h2>
+      </div>
+      </div>
+      <!-- <h3> {{item.game}} </h3>
+      <p> {{item.description}} </p> -->
     </carousel-item>
 </ui-carousel>

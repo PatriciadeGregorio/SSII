@@ -1,0 +1,51 @@
+div[back-img]{
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.img-settings {
+  background-position: center;
+  min-height: 100vh;
+}
+
+.carousel-title {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  -moz-transform: translateX(-50%) translateY(-50%) !important;
+  -webkit-transform: translateX(-50%) translateY(-50%) !important;
+  transform: translateX(-50%) translateY(-50%) !important;
+}
+
+.text_over_image {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  color:#fff;
+  height:100px;
+}
+
+
+.carousel-overlay {
+  position: absolute;
+    right: 0;
+    width: 100%;
+    height: 95%;
+    opacity: 0.05;
+    z-index: 2;
+    background-color: #2d2d2d;
+}
+
+.bsbug {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.panel-juego {
+  text-align: center;
+}
+

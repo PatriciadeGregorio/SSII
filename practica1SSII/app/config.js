@@ -18,6 +18,14 @@ angular.module('practica1SsiiApp')
               params: {
                 gameSearch: null
               }
+            })
+            .state('info', {
+              name: 'info',
+              url: '/info',
+              component: 'info',
+              params: {
+                game: null
+              }
             });
     }])
 
