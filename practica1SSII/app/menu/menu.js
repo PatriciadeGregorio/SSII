@@ -1,13 +1,18 @@
 'use strict';
 
-function MenuCtrl(HomeService, $scope) {
+function MenuCtrl($scope, $state, SearchService) {
     var vm = this;
     this.$onInit = function () {
+
     };
+    vm.search = function () {
+      SearchService.getSearchGames(vm.searchName).then(function(resp) {
+        $state.go('search', {gameSearch: resp.data});
+      })
+    }
 };
 
 angular.module('practica1SsiiApp').component('menu', {
-  template: '<menu></menu>',
   templateUrl: 'menu/menu.html',
   controller: MenuCtrl,
   controllerAs: 'vm'

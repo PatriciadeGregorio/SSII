@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="main_page/main_page.css">
     <link rel="stylesheet" href="menu/menu.css">
+    <link rel="stylesheet" href="search/search.css">
+    <link rel="stylesheet" href="item/item.css">
+    <link rel="stylesheet" href="carousel/carousel.css">
     <!-- endbuild -->
   </head>
   <body ng-app="practica1SsiiApp">
@@ -26,32 +29,11 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="header">
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+    <menu></menu>
 
-            <a class="navbar-brand" href="#/">practica1Ssii</a>
-          </div>
+    <ui-view></ui-view>
 
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <home></home>
 
     <div class="footer">
       <div class="container">
@@ -86,9 +68,13 @@
         <script src="scripts/controllers/about.js"></script>
         <script src="main_page/main_page.js"></script>
         <script src="menu/menu.js"></script>
+        <script src="search/search.js"></script>
+        <script src="item/item.js"></script>
+        <script src="carousel/carousel.js"></script>
          <!-- build:js({.tmp,app}) services/scripts.js -->
         <script src="./config.js"></script>
         <script src="./services/homeService.js"></script>
+        <script src="./services/searchService.js"></script>
         <!-- <script src="./services/searchService.js"></script> -->
         <!-- <script src="../bower_components/owl.carousel/dist/owl.carousel.min.js"></script> -->
         <!-- endbuild -->

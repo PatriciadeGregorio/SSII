@@ -22,9 +22,9 @@
       </div>
     </div>
     <div id='search-box'>
-      <form action='/search' id='search-form' target='_top'>
-      <input id='search-text' name='q' placeholder='Search' type='text'/>
-      <button id='search-button' type='submit'>
+      <form id='search-form' target='_top'>
+      <input id='search-text' ng-model="vm.searchName" name='searchName' placeholder='Search' type='text'/>
+      <button id='search-button' type='submit' ng-click="vm.search()">
       <span>Search</span>
       </button>
       </form>

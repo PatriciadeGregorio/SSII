@@ -3,10 +3,28 @@
 angular.module('practica1SsiiApp')
 
     .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
-        $urlRouterProvider.otherwise('/home');
+        $urlRouterProvider.otherwise('home');
         $stateProvider
             .state('home', {
+                name: 'home',
                 url: '/home',
-                template: '<home></home>'
+                component: 'home'
+
+            })
+            .state('search', {
+              name: 'search',
+              url: '/search',
+              component: 'search',
+              params: {
+                gameSearch: null
+              }
             });
-    }]);
+    }])
+
+
+    .run(['$state', '$timeout',
+    function ($state, $timeout) {
+      $timeout(function() {
+        $state.go('home');
+    });
+}]);
