@@ -5,11 +5,11 @@ function SearchCtrl($scope, $stateParams, $state) {
     this.$onInit = function () {
 
     };
-    var items = $stateParams.gameSearch.gamesList;
-    console.log(items);
+    vm.items = $stateParams.gameSearch.gamesList;
 
-    vm.getInfo = function() {
-      $state.go('info');
+    vm.getInfo = function(item) {
+      $state.go('info', {game: item});
+      // $state.go('info');
     }
 };
 

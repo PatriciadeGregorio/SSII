@@ -1,9 +1,10 @@
 'use strict';
 
-function InfoCtrl($scope) {
+function InfoCtrl($scope, $stateParams, $state) {
     var vm = this;
     this.$onInit = function () {
-
+      vm.item = $stateParams.game;
+      console.log(vm.item);
     };
 };
 

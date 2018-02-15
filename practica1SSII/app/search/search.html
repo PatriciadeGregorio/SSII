@@ -1,54 +1,10 @@
-<div style="padding: 20px;" class="row">
-
-  <div class="col-md-4" ng-click="vm.getInfo()">
+<div class="row pad-20">
+  <div ng-repeat="item in vm.items" class="col-md-4" ng-click="vm.getInfo(item)">
       <div class="bsbug panel-juego  panel panel-info">
-          <div class="panel-heading">Panel heading without title</div>
+          <div class="panel-heading">{{item.game}}</div>
           <div class="panel-body">
-            Panel content
+            {{item.description}}
           </div>
       </div>
   </div>
-
-  <div class="col-md-4">
-    <div class="bsbug panel-juego panel panel-info">
-
-        <div class="panel-heading">Panel heading without title</div>
-        <div class="panel-body">
-          Panel content
-        </div>
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <div class="bsbug panel-juego panel panel-info">
-      <div class="panel-heading">Panel heading without title</div>
-    <div class="panel-body">
-        Panel content
-    </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="bsbug panel-juego panel panel-info">
-      <div class="panel-heading">Panel heading without title</div>
-    <div class="panel-body">
-        Panel content
-    </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-      <div class="bsbug panel-juego panel panel-info">
-        <div class="panel-heading">Panel heading without title</div>
-      <div class="panel-body">
-          Panel content
-      </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-        <div class="bsbug panel-juego panel panel-info">
-          <div class="panel-heading">Panel heading without title</div>
-        <div class="panel-body">
-            Panel content
-        </div>
-        </div>
-      </div>
 </div>

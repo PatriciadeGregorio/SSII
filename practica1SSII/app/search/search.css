@@ -1,6 +1,8 @@
-
-
 .carousel-item {
   background-position: center;
   background-size: cover;
+}
+
+.pad-20{
+  padding: 20px;
 }
