@@ -10,6 +10,10 @@ function MenuCtrl($scope, $state, SearchService) {
         $state.go('search', {gameSearch: resp.data});
       })
     }
+
+    vm.goHome = function () {
+      $state.go('home');
+    }
 };
 
 angular.module('practica1SsiiApp').component('menu', {
