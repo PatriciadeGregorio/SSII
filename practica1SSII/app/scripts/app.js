@@ -20,6 +20,7 @@ angular
     'ngTouch',
     'ui.router',
     'ui.bootstrap',
-    'ui.carousel'
+    'ui.carousel',
+    'ui.bootstrap.modal'
   ]);
 

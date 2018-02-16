@@ -1,0 +1,19 @@
+<div>
+      <div class="modal-header">
+          <h3 class="modal-title">I'm a modal!</h3>
+      </div>
+      <div class="modal-body">
+          <ul>
+              <li ng-repeat="item in vm.items">
+                  <a ng-click="vm.selected.item = item">{{vm.item}}</a>
+              </li>
+          </ul>
+          Selected: <b>{{vm.selected.item }}</b>
+      </div>
+      <div class="modal-footer">
+          <button class="btn btn-primary" ng-click="vm.ok()">OK</button>
+          <button class="btn btn-warning" ng-click="vm.cancel()">Cancel</button>
+      </div>
+
+  <div ng-show="vm.selected">Selection from a modal: {{ selected }}</div>
+</div>
