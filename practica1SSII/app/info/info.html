@@ -1,12 +1,43 @@
-<div class="col-md-12" >
 
 
-  INFO WORKS!
+<div class="row">
+
+
+  <div style="margin-left: 53px;min-height: 500px;" class="col-md-10 div-border" >
+    <div class="row">
+      <div style="top:8vh;" class="col-md-6">
+        <p>
+          <h2>{{vm.item.game}}</h2>
+
+
+          <p>{{vm.item.description}}</p>
+
+          <div style="padding:15px;"class="row">
+            <div class="col-md-4">
+              <button style="width:100%;text-align: center" type="button" class="btn btn-info"> Consultar guía  </button>
+            </div>
+            <div class="col-md-4">
+               <button style="width:100%;text-align: center" type="button" class="btn btn-info">  Solicitar demo  </button>
+              </div>
+            <div class="col-md-4">
+              <button style="width:100%;text-align: center" type="button" class="btn btn-info">  Comprar juego  </button>
+            </div>
+          </div>
 
 
 
+        </p>
 
 
+
+      </div>
+      <div style="min-height: 500px;" class="col-md-6"><img style="min-height: 500px; width:105%; border-radius:4px;" ng-src="{{vm.item.infoImage}}"></div>
+
+
+
+    </div>
+  </div>
+  <div class="col-md-1"> </div>
 </div>
 
 <!-- <div ng-show="true" align="center">
@@ -18,4 +49,4 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X30ZPDESlMA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 
-<button ng-click="vm.openModal()">Buttonsito</button>
+<!--<button ng-click="vm.openModal()">Buttonsito</button>-->
