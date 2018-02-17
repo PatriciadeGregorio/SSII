@@ -32,6 +32,7 @@ function ModalService($uibModal) {
   };
 
   service.solicitarDemo = function (canWatch, timeLeft, videoURL) {
+    parseURL(videoURL);
     return modalInstance = $uibModal.open({
       templateUrl: '../services/modalDemoTemplate.html',
       controller: 'ModalInstanceCtrl',
@@ -48,6 +49,12 @@ function ModalService($uibModal) {
       }
     });
   };
+
+  function parseURL(url) {
+    console.log(url);
+    console.log(url + '?autoplay=1&controls=0&disablekb=1&enablejsapi=1&end=3600');
+    return url + '?autoplay=1&controls=0&disablekb=1&enablejsapi=1&end=3600';
+  }
   return service;
 }
 
