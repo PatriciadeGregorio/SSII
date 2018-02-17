@@ -17,7 +17,7 @@
     "canWatch": false,
     "imageURL": "https://cdn4.dualshockers.com/wp-content/uploads/2017/03/Banner-BindingOfIsaac-Afterbirth.jpg",
     "infoImage": "https://f4.bcbits.com/img/a3111078532_16.jpg",
-    "videoURL": "https://www.youtube.com/embed/watch?v=_I-BClNSq-o"
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA"
   },
   {
     "game": "Fifa18",
@@ -34,14 +34,14 @@
     "infoImage": "http://contenidos.enter.co/custom/uploads/2015/06/thelastofus-dest.jpg",
     "canWatch": true,
     "leftTime": 14.5,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o&t=76s"
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA"
   },
   {
     "game": "Tomb Raider",
     "description": "Tomb Raider es una franquicia de medios, que incluye una serie de videojuegos, historietas y películas que giran alrededor de las aventuras de la arqueóloga británica Lara Croft",
     "canWatch": true,
     "leftTime": 8.3,
-    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA",
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA",
     "imageURL": "https://wallpaperscraft.com/image/rise_of_the_tomb_raider_lara_croft_bear_forest_art_ice_ax_101233_1920x1080.jpg",
     "infoImage": "http://cahosgaming.com.ar/uploads/b/13B20170426_1493251330_COD%20-%20WW2.jpg"
   },
@@ -52,7 +52,7 @@
     "infoImage": "http://cahosgaming.com.ar/uploads/b/13B20170426_1493251330_COD%20-%20WW2.jpg",
     "canWatch": true,
     "leftTime": 14.9,
-    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA"
   },
   {
     "game": "Cuphead",
@@ -61,7 +61,7 @@
     "infoImage": "http://cahosgaming.com.ar/uploads/b/13B20170426_1493251330_COD%20-%20WW2.jpg",
     "canWatch": true,
     "leftTime": 29,
-    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA"
   },
   {
     "game": "Stardew Valley",
@@ -70,7 +70,7 @@
     "infoImage": "http://cahosgaming.com.ar/uploads/b/13B20170426_1493251330_COD%20-%20WW2.jpg",
     "canWatch": true,
     "leftTime": 18.1,
-    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA"
   },
   {
     "game": "Counter-Strike: Global Offensive",
@@ -79,7 +79,7 @@
     "infoImage": "http://cahosgaming.com.ar/uploads/b/13B20170426_1493251330_COD%20-%20WW2.jpg",
     "canWatch": true,
     "leftTime": 17.2,
-    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA"
   },
   {
     "game": "League of Legends",
@@ -87,7 +87,7 @@
     "imageURL": "https://las.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/patch-notes-banner-3.jpg?itok=_0pr_Ybx",
     "canWatch": false,
     "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA",
-    "infoImage": "http://cahosgaming.com.ar/uploads/b/13B20170426_1493251330_COD%20-%20WW2.jpg"
+    "infoImage": "https://www.youtube.com/embed/X30ZPDESlMA"
   }
 ]
 

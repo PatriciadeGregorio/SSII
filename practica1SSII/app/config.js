@@ -2,8 +2,10 @@
 
 angular.module('practica1SsiiApp')
 
-    .config(['$urlRouterProvider', '$stateProvider', '$sceDelegateProvider', function($urlRouterProvider, $stateProvider, $sceDelegateProvider) {
+    .config(['$urlRouterProvider', '$stateProvider', '$sceDelegateProvider', '$qProvider',
+    function($urlRouterProvider, $stateProvider, $sceDelegateProvider, $qProvider) {
         $urlRouterProvider.otherwise('home');
+        $qProvider.errorOnUnhandledRejections(false);
         $sceDelegateProvider.resourceUrlWhitelist([
           'self',
           'https://www.youtube.com/**'

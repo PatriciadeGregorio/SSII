@@ -1,5 +1,18 @@
 <div>
-<div ng-if="vm.locals.canWatch" id="player"></div>
+  <iframe
+    ng-if="vm.locals.canWatch"
+    id= "player"
+    width="560"
+    height="315"
+    ng-src= "{{vm.locals.videoURL}}"
+    frameborder="0"
+    autoplay="1"
+    disablekb="1"
+    enablejsapi="1"
+    end="3600"
+    controls="0"
+    allowfullscreen>
+</iframe>
 
 <div ng-if ="!vm.locals.canWatch">
   <div class="modal-header">
@@ -14,46 +27,3 @@
 </div>
 
 </div>
-
-<script>
-  // 2. This code loads the IFrame Player API code asynchronously.
-  var tag = document.createElement('script');
-
-  tag.src = "https://www.youtube.com/iframe_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-  // 3. This function creates an <iframe> (and YouTube player)
-  //    after the API code downloads.
-  var player;
-  function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
-      height: '360',
-      width: '640',
-      videoId: 'M7lc1UVf-VE',
-      events: {
-        'onReady': onPlayerReady,
-        'onStateChange': onPlayerStateChange
-      },
-      playerVars: {
-        'autoplay': '1',
-        'disablekb': '1',
-        'end': '3600',
-        'enablejsapi' : '1',
-        'controls': '0'
-      }
-    });
-  }
-
-  function onPlayerReady(event) {
-    event.target.playVideo();
-  }
-
-  var done = false;
-  function onPlayerStateChange(event) {
-
-  }
-  function stopVideo() {
-    player.stopVideo();
-  }
-</script>

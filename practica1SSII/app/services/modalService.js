@@ -54,7 +54,8 @@ function ModalService($uibModal) {
 function ModalInstanceCtrl ($scope, $uibModalInstance, locals) {
 
   var vm = this;
-    this.$onInit = function () {
+  this.$onInit = function () {
+
   }
 
   vm.locals = locals;

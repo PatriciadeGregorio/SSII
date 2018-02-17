@@ -22,6 +22,6 @@ angular
     'ui.bootstrap',
     'ui.carousel',
     'ui.bootstrap.modal',
-    'ngYoutubeEmbed'
+    'ngYoutubeEmbed',
   ]);
 

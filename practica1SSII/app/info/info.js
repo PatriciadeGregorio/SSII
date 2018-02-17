@@ -18,7 +18,6 @@ function InfoCtrl($scope, $stateParams, $state, $sce, $window, ModalService) {
     };
 
     vm.solicitarDemo = function () {
-      // console.log(vm.item.videoURL);
       ModalService.solicitarDemo(vm.item.canWatch,vm.item.timeLeft,vm.item.videoURL).result.then (function(resp) {
         console.log(resp);
       }, function error(error) {
