@@ -21,6 +21,7 @@ angular
     'ui.router',
     'ui.bootstrap',
     'ui.carousel',
-    'ui.bootstrap.modal'
+    'ui.bootstrap.modal',
+    'ngYoutubeEmbed'
   ]);
 

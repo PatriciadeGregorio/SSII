@@ -10,7 +10,7 @@
           <p>{{vm.item.description}}</p>
           <div style="padding:15px;"class="row">
             <div class="col-md-4">
-              <button ng-click="vm.infoUserVideo()" style="width:100%;text-align: center" type="button" class="btn btn-info"> Consultar guía  </button>
+              <button ng-click="vm.guia()" style="width:100%;text-align: center" type="button" class="btn btn-info"> Consultar guía  </button>
             </div>
             <div class="col-md-4">
                <button ng-click="vm.solicitarDemo()" style="width:100%;text-align: center" type="button" class="btn btn-info">  Solicitar demo  </button>
@@ -20,6 +20,12 @@
             </div>
           </div>
         </p>
+        <!-- <canvas
+            id="doughnut"
+            class="chart chart-doughnut"
+            chart-data="vm.data"
+            chart-labels="vm.labels">
+        </canvas-->
       </div>
       <div style="min-height: 500px;" class="col-md-6"><img style="min-height: 500px; width:105%; border-radius:4px;" ng-src="{{vm.item.infoImage}}"></div>
 

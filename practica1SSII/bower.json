@@ -17,7 +17,8 @@
     "angular-owl-carousel-directive": "*",
     "angular-bootstrap": "^2.5.0",
     "angular-ui-carousel": "^0.1.10",
-    "components-font-awesome": "^5.0.6"
+    "components-font-awesome": "^5.0.6",
+    "ng-youtube-embed": "^1.7.11"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.0"

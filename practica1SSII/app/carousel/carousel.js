@@ -4,7 +4,6 @@ function CarouselCtrl() {
     var vm = this;
     this.$onInit = function () {
     };
-    console.log(vm.images);
     vm.gameList = vm.images;
 };
 

@@ -39,8 +39,9 @@
   },
   "dependencies": {
     "@uirouter/angularjs": "^1.0.15",
+    "angular-chart.js": "^1.1.1",
     "angular-owl-carousel2": "^1.0.6",
-    "eslint": "^4.17.0",
+    "eslint": "^4.18.0",
     "owl.carousel": "^2.2.0"
   }
 }

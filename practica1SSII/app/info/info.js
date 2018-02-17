@@ -9,17 +9,25 @@ function InfoCtrl($scope, $stateParams, $state, $sce, $window, ModalService) {
 
     vm.openModal = function () {
       ModalService.open().result;
-    }
+    };
 
-    vm.infoUserVideo = function () {
-      ModalService.infoUser(vm.item.canWatch, vm.item.timeLeft, vm.item.videoURL).result.then (function(resp) {
-        console.log(resp);
-      })
-    }
+    vm.guia = function () {
+      ModalService.guia(vm.item.videoURL).result.then (function(resp) {
+        // console.log(resp);
+      });
+    };
 
     vm.solicitarDemo = function () {
+      // console.log(vm.item.videoURL);
+      ModalService.solicitarDemo(vm.item.canWatch,vm.item.timeLeft,vm.item.videoURL).result.then (function(resp) {
+        console.log(resp);
+      }, function error(error) {
+        // console.log('error');
+      });
+    };
 
-    }
+    // vm.labels = ["Download Sales", "In-Store Sales", "Mail-Order Sales"];
+    // vm.data = [300, 500, 100];
 };
 
 angular.module('practica1SsiiApp').component('info', {

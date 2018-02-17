@@ -4,7 +4,6 @@ function ModalService($uibModal) {
   service.items = ['item1', 'item2', 'item3'];
 
   service.open = function () {
-
     return modalInstance = $uibModal.open({
       templateUrl: '../services/modalCompraTemplate.html',
       controller: 'ModalInstanceCtrl',
@@ -17,12 +16,27 @@ function ModalService($uibModal) {
     });
   };
 
-  service.infoUser = function (canWatch, timeLeft, videoURL) {
-
+  service.guia = function (videoURL) {
     return modalInstance = $uibModal.open({
       templateUrl: '../services/modalInfoTemplate.html',
       controller: 'ModalInstanceCtrl',
       controllerAs: 'vm',
+      resolve: {
+        locals: function () {
+          return {
+            videoURL: videoURL
+          };
+        }
+      }
+    });
+  };
+
+  service.solicitarDemo = function (canWatch, timeLeft, videoURL) {
+    return modalInstance = $uibModal.open({
+      templateUrl: '../services/modalDemoTemplate.html',
+      controller: 'ModalInstanceCtrl',
+      controllerAs: 'vm',
+      keyboard : false,
       resolve: {
         locals: function () {
           return {
@@ -38,7 +52,10 @@ function ModalService($uibModal) {
 }
 
 function ModalInstanceCtrl ($scope, $uibModalInstance, locals) {
+
   var vm = this;
+    this.$onInit = function () {
+  }
 
   vm.locals = locals;
   vm.ok = function () {
