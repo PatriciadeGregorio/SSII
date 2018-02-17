@@ -1,4 +1,29 @@
-<button ng-click="vm.openModal()">Compra</button>
-<button ng-click="vm.infoUserVideo()">Guía</button>
-<!-- <button ng-click="vm.infoUserVideo()">Tiempo</button> -->
 
+
+<div class="row">
+
+  <div style="margin-left: 53px;min-height: 500px;" class="col-md-10 div-border" >
+    <div class="row">
+      <div style="top:8vh;" class="col-md-6">
+        <p>
+          <h2>{{vm.item.game}}</h2>
+          <p>{{vm.item.description}}</p>
+          <div style="padding:15px;"class="row">
+            <div class="col-md-4">
+              <button ng-click="vm.infoUserVideo()" style="width:100%;text-align: center" type="button" class="btn btn-info"> Consultar guía  </button>
+            </div>
+            <div class="col-md-4">
+               <button ng-click="vm.solicitarDemo()" style="width:100%;text-align: center" type="button" class="btn btn-info">  Solicitar demo  </button>
+              </div>
+            <div class="col-md-4">
+              <button ng-click="vm.openModal()" style="width:100%;text-align: center" type="button" class="btn btn-info">  Comprar juego  </button>
+            </div>
+          </div>
+        </p>
+      </div>
+      <div style="min-height: 500px;" class="col-md-6"><img style="min-height: 500px; width:105%; border-radius:4px;" ng-src="{{vm.item.infoImage}}"></div>
+
+    </div>
+  </div>
+  <div class="col-md-1"> </div>
+</div>

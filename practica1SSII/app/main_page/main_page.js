@@ -14,3 +14,9 @@ angular.module('practica1SsiiApp').component('home', {
   controller: MainPageCtrl,
   controllerAs: 'vm'
 });
+
+
+$(document).ready(function(){
+  var cur = $(".carousel-next");
+  cur.remove();
+});
