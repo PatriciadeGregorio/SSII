@@ -1,11 +1,13 @@
 'use strict';
 
-function SearchCtrl($scope, $stateParams, $state) {
+function SearchCtrl($scope, $stateParams, $state, HomeService) {
     var vm = this;
     this.$onInit = function () {
-
+      HomeService.getHomeGames().then(function(resp) {
+        vm.items = resp.data.gamesList;
+      });
     };
-    vm.items = $stateParams.gameSearch.gamesList;
+    // vm.items = $stateParams.gameSearch.gamesList;
 
     vm.getInfo = function(item) {
       $state.go('info', {game: item});
