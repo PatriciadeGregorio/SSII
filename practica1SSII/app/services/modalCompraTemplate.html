@@ -6,27 +6,9 @@
           <p>Se te va a redigir al método de pago</p>
       </div>
       <div class="modal-footer">
-          <button id="payButton" class="btn btn-info" ng-click="vm.ok()">Cerrar</button>
+          <button class="btn btn-info" ng-click="vm.ok()">Cerrar</button>
       </div>
 </div>
 
 
-<script>
 
-
-
-  url = "https://es.wikipedia.org/wiki/Pago"
-  $("#payButton").on('click', function(){
-    setTimeout(function() {
-      abrirPaginaPago(url);
-    }, 2500);
-  });
-
-  function abrirPaginaPago(url) {
-		var a = document.createElement("a");
-		a.target = "_blank";
-		a.href = url;
-		a.click();
-	}
-
-</script>

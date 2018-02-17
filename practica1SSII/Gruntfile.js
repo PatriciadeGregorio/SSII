@@ -8,7 +8,8 @@
 // 'test/spec/**/*.js'
 
 module.exports = function (grunt) {
-
+  grunt.loadNpmTasks('grunt-build-control');
+  grunt.loadNpmTasks('grunt-include-js');
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
@@ -220,7 +221,7 @@ module.exports = function (grunt) {
             }
           }
       }
-    }, 
+    },
 
     // Renames files for browser caching purposes
     filerev: {

@@ -13,8 +13,6 @@
     "angular-sanitize": "^1.4.0",
     "angular-touch": "^1.4.0",
     "angular-ui-router": "1.0.0",
-    "owl.carousel": "^2.2.1",
-    "angular-owl-carousel-directive": "*",
     "angular-bootstrap": "^2.5.0",
     "angular-ui-carousel": "^0.1.10",
     "components-font-awesome": "^5.0.6"
