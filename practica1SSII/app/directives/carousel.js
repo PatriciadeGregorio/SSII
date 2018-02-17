@@ -1,4 +1,4 @@
-
+'use strict';
 
 angular.module('practica1SsiiApp').directive('backImg', function(){
   return function(scope, element, attrs){

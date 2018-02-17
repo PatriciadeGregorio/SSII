@@ -10,8 +10,8 @@ function SearchCtrl($scope, $stateParams, $state) {
     vm.getInfo = function(item) {
       $state.go('info', {game: item});
       // $state.go('info');
-    }
-};
+    };
+}
 
 angular.module('practica1SsiiApp').component('search', {
   templateUrl: 'search/search.html',

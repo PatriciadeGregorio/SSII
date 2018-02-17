@@ -1,5 +1,6 @@
+'use strict';
 function HomeService($http, $q) {
-  service = {};
+  var service = {};
   service.getHomeGames = function(){
     var deferred = $q.defer(),
         games = null;
@@ -7,8 +8,8 @@ function HomeService($http, $q) {
         games = deferred.resolve(resp);
         return deferred.promise;
     });
-  }
+  };
   return service;
-};
+}
 
 angular.module('practica1SsiiApp').service('HomeService', HomeService);

@@ -6,7 +6,7 @@ function CarouselCtrl() {
     };
     console.log(vm.images);
     vm.gameList = vm.images;
-};
+}
 
 angular.module('practica1SsiiApp').component('carousel', {
   templateUrl: 'carousel/carousel.html',

@@ -1,10 +1,10 @@
-
+'use strict';
 function ModalService($uibModal) {
-  service = {};
+  var service = {};
   service.items = ['item1', 'item2', 'item3'];
 
   service.open = function () {
-
+    var modalInstance = null;
     return modalInstance = $uibModal.open({
       templateUrl: '../services/modalCompraTemplate.html',
       controller: 'ModalInstanceCtrl',
@@ -18,7 +18,7 @@ function ModalService($uibModal) {
   };
 
   service.infoUser = function (canWatch, timeLeft, videoURL) {
-
+    var modalInstance = null;
     return modalInstance = $uibModal.open({
       templateUrl: '../services/modalInfoTemplate.html',
       controller: 'ModalInstanceCtrl',
@@ -36,7 +36,7 @@ function ModalService($uibModal) {
   };
   return service;
 }
-
+'use strict';
 function ModalInstanceCtrl ($scope, $uibModalInstance, locals) {
   var vm = this;
 
