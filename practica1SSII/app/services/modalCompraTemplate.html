@@ -1,0 +1,32 @@
+<div>
+      <div class="modal-header">
+          <h3 class="modal-title">Redirigiendo al método de pago... <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i></h3>
+      </div>
+      <div class="modal-body">
+          <p>Se te va a redigir al método de pago</p>
+      </div>
+      <div class="modal-footer">
+          <button id="payButton" class="btn btn-info" ng-click="vm.ok()">Cerrar</button>
+      </div>
+</div>
+
+
+<script>
+
+
+
+  url = "https://es.wikipedia.org/wiki/Pago"
+  $("#payButton").on('click', function(){
+    setTimeout(function() {
+      abrirPaginaPago(url);
+    }, 2500);
+  });
+
+  function abrirPaginaPago(url) {
+		var a = document.createElement("a");
+		a.target = "_blank";
+		a.href = url;
+		a.click();
+	}
+
+</script>

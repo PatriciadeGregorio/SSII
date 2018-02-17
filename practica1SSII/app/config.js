@@ -2,8 +2,12 @@
 
 angular.module('practica1SsiiApp')
 
-    .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
+    .config(['$urlRouterProvider', '$stateProvider', '$sceDelegateProvider', function($urlRouterProvider, $stateProvider, $sceDelegateProvider) {
         $urlRouterProvider.otherwise('home');
+        $sceDelegateProvider.resourceUrlWhitelist([
+          'self',
+          'https://www.youtube.com/**'
+        ]);
         $stateProvider
             .state('home', {
                 name: 'home',

@@ -7,24 +7,25 @@
     "imageURL": "https://www.callofduty.com/content/dam/atvi/callofduty/wwii/home/sh-overview.jpg",
     "infoImage": "http://cahosgaming.com.ar/uploads/b/13B20170426_1493251330_COD%20-%20WW2.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
+    "leftTime": 10,
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA"
 
   },
   {
     "game": "The Binding of Isaac: Afterbirth+",
     "description": "The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety. ",
+    "canWatch": false,
     "imageURL": "https://cdn4.dualshockers.com/wp-content/uploads/2017/03/Banner-BindingOfIsaac-Afterbirth.jpg",
     "infoImage": "https://f4.bcbits.com/img/a3111078532_16.jpg",
-    "canWatch": false,
     "videoURL": "https://www.youtube.com/embed/watch?v=_I-BClNSq-o"
   },
   {
     "game": "Fifa18",
     "description": "FIFA 18 es un videojuego de fútbol, desarrollado por Electronic Arts y publicado por EA Sports Canadá y EA Sports Rumania. Es el 25.º de la serie de videojuegos de la FIFA",
-    "imageURL": "https://as01.epimg.net/esports/imagenes/2018/01/23/portada/1516729103_695275_1516729169_noticia_normal.jpg",
-    "infoImage": "https://d2yca1enuxtdrs.cloudfront.net/images/resize/product/1240/4d4e4b2ade870ca18aff7a850c1713e1.jpg",
     "canWatch": false,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA",
+    "imageURL": "https://as01.epimg.net/esports/imagenes/2018/01/23/portada/1516729103_695275_1516729169_noticia_normal.jpg",
+    "infoImage": "https://d2yca1enuxtdrs.cloudfront.net/images/resize/product/1240/4d4e4b2ade870ca18aff7a850c1713e1.jpg"
   },
   {
     "game": "The Last of Us",
@@ -32,7 +33,8 @@
     "imageURL": "https://im.ziffdavisinternational.com/ign_es/screenshot/default/last-of-us-logo_kev6.jpg",
     "infoImage": "http://contenidos.enter.co/custom/uploads/2015/06/thelastofus-dest.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 14.5,
+    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o&t=76s"
   },
   {
     "game": "Tomb Raider",
@@ -40,7 +42,8 @@
     "imageURL": "https://wallpaperscraft.com/image/rise_of_the_tomb_raider_lara_croft_bear_forest_art_ice_ax_101233_1920x1080.jpg",
     "infoImage": "https://www.somosxbox.com/wp-content/uploads/2015/12/TombRaider.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 8.3,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   },
   {
     "game": "Killing Floor 2",
@@ -48,7 +51,8 @@
     "imageURL": "https://news.xbox.com/wp-content/uploads/01-85.jpg",
     "infoImage": "http://www.killingfloor2.com/media/2833/games_kf2_logo.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 14.9,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   },
   {
     "game": "Cuphead",
@@ -56,7 +60,8 @@
     "imageURL": "http://sm.ign.com/ign_es/screenshot/default/cuphead-1920x1080-titled-hero-art_2jr5.jpg",
     "infoImage": "http://sm.ign.com/ign_es/screenshot/default/cuphead-1920x1080-titled-hero-art_2jr5.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 29,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   },
   {
     "game": "Stardew Valley",
@@ -64,7 +69,8 @@
     "imageURL": "http://thenerdstash.com/wp-content/uploads/2017/10/stardewval.jpg",
     "infoImage": "http://thenerdstash.com/wp-content/uploads/2017/10/stardewval.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 18.1,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   },
   {
     "game": "Counter-Strike: Global Offensive",
@@ -72,7 +78,8 @@
     "imageURL": "https://i13b.3djuegos.com/juegos/7909/counterstrike_global_offensive/fotos/maestras/counterstrike_global_offensive-3447530.jpg",
     "infoImage": "https://i13b.3djuegos.com/juegos/7909/counterstrike_global_offensive/fotos/maestras/counterstrike_global_offensive-3447530.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 17.2,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   },
   {
     "game": "League of Legends",
@@ -80,7 +87,7 @@
     "imageURL": "https://las.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/patch-notes-banner-3.jpg?itok=_0pr_Ybx",
     "infoImage": "https://las.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/patch-notes-banner-3.jpg?itok=_0pr_Ybx",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   }
 ]
 

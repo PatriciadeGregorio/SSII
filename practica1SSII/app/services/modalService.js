@@ -6,12 +6,30 @@ function ModalService($uibModal) {
   service.open = function () {
 
     return modalInstance = $uibModal.open({
-      templateUrl: '../services/modalTemplate.html',
+      templateUrl: '../services/modalCompraTemplate.html',
       controller: 'ModalInstanceCtrl',
       controllerAs: 'vm',
       resolve: {
-        items: function () {
+        locals: function () {
           return service.items;
+        }
+      }
+    });
+  };
+
+  service.infoUser = function (canWatch, timeLeft, videoURL) {
+
+    return modalInstance = $uibModal.open({
+      templateUrl: '../services/modalInfoTemplate.html',
+      controller: 'ModalInstanceCtrl',
+      controllerAs: 'vm',
+      resolve: {
+        locals: function () {
+          return {
+            canWatch: canWatch,
+            timeLeft: timeLeft,
+            videoURL: videoURL
+          };
         }
       }
     });
@@ -19,15 +37,12 @@ function ModalService($uibModal) {
   return service;
 }
 
-function ModalInstanceCtrl ($scope, $uibModalInstance) {
+function ModalInstanceCtrl ($scope, $uibModalInstance, locals) {
   var vm = this;
-  vm.items = ['item1', 'item2', 'item3'];
-  vm.selected = {
-    item: vm.items[0]
-  };
 
+  vm.locals = locals;
   vm.ok = function () {
-    $uibModalInstance.close(vm.selected.item);
+    $uibModalInstance.close(null);
   };
 
   vm.cancel = function () {

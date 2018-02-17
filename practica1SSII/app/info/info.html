@@ -3,50 +3,48 @@
 <div class="row">
 
 
-  <div style="width: 94%;margin-left: 53px;min-height: 500px;" class="col-md-10 div-border" >
+  <div style="width: 94%;margin-left: 53px;min-height: 500px;" class="col-md-12 div-border" >
     <div class="row">
       <div style="top:8vh;" class="col-md-6">
         <p>
           <h2>{{vm.item.game}}</h2>
-
-
           <p>{{vm.item.description}}</p>
-
           <div style="padding:15px;"class="row">
             <div class="col-md-4">
-              <button style="width:100%;text-align: center" type="button" class="btn btn-info"> Consultar guía  </button>
+              <button ng-click="vm.infoUserVideo()" style="width:100%;text-align: center" type="button" class="btn btn-info"> Consultar guía  </button>
             </div>
             <div class="col-md-4">
-               <button style="width:100%;text-align: center" type="button" class="btn btn-info">  Solicitar demo  </button>
+               <button ng-click="vm.solicitarDemo()" style="width:100%;text-align: center" type="button" class="btn btn-info">  Solicitar demo  </button>
               </div>
             <div class="col-md-4">
-              <button style="width:100%;text-align: center" type="button" class="btn btn-info">  Comprar juego  </button>
+              <button id="payButton" ng-click="vm.openModal()" style="width:100%;text-align: center" type="button" class="btn btn-info">  Comprar juego  </button>
             </div>
           </div>
-
-
-
         </p>
-
-
-
       </div>
       <div style="min-height: 500px;" class="col-md-6"><img style="min-height: 500px; width:105%; border-radius:4px;" ng-src="{{vm.item.infoImage}}"></div>
-
-
 
     </div>
   </div>
 
 </div>
 
-<!-- <div ng-show="true" align="center">
-  <iframe margin="0" padding="0" border="none" width="700" height="400" frameBorder="0"
-      ng-src="{{vm.trustSrc(vm.item.videoURL)}}">
- </iframe>
-</div>
 
+<script>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/X30ZPDESlMA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+    url = "https://es.wikipedia.org/wiki/Pago"
+    $("#payButton").on('click', function(){
+      setTimeout(function() {
+        abrirPaginaPago(url);
 
-<!--<button ng-click="vm.openModal()">Buttonsito</button>-->
+      }, 2500);
+    });
+
+    function abrirPaginaPago(url) {
+      var a = document.createElement("a");
+      a.target = "_blank";
+      a.href = url;
+      a.click();
+    }
+
+  </script>
