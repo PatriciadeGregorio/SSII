@@ -1,19 +1,25 @@
 'use strict';
 
-function InfoCtrl($scope, $stateParams, $state, $sce, ModalService) {
+function InfoCtrl($scope, $stateParams, $state, $sce, $window, ModalService) {
     var vm = this;
     this.$onInit = function () {
 
     };
 
     vm.item = $stateParams.game;
-    vm.trustSrc = function(src) {
-      return $sce.trustAsResourceUrl(src);
-    }
-    vm.openModal = function () {
-      ModalService.open().resolve.then(function(resp) {
 
-      });
+    vm.openModal = function () {
+      ModalService.open().result;
+    }
+
+    // vm.redirectToVideo = function () {
+    //   $window.open(vm.item.videoURL, '_blank');
+    // };
+
+    vm.infoUserVideo = function () {
+      ModalService.infoUser(vm.item.canWatch, vm.item.timeLeft, vm.item.videoURL).result.then (function(resp) {
+        console.log(resp);
+      })
     }
 };
 

@@ -6,71 +6,78 @@
     "description": "Por mucho que ahora se la repartan tres estudios diferentes (Infinity Ward, Treyarch y Sledgehammer), es normal que una saga anual tan exitosa como Call of Duty haya sufrido un gran desgaste con el paso de los años, y el salto al espacio de la última entrega, Call of Duty: Infinite Warfare, fue especialmente mal recibido por los jugadores, que no quisieron darle ni el beneficio de la duda, pese a contar con una gran campaña para un jugador",
     "imageURL": "https://www.callofduty.com/content/dam/atvi/callofduty/wwii/home/sh-overview.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
+    "leftTime": 10,
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA"
 
   },
   {
     "game": "The Binding of Isaac: Afterbirth+",
     "description": "The Binding of Isaac is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety. ",
-    "imageURL": "https://media.redadn.es/imagenes/the-binding-of-isaac-afterbirth_302640.jpg",
     "canWatch": false,
-    "videoURL": "https://www.youtube.com/embed/watch?v=_I-BClNSq-o"
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA",
+    "imageURL": "https://cdn4.dualshockers.com/wp-content/uploads/2017/03/Banner-BindingOfIsaac-Afterbirth.jpg"
   },
   {
     "game": "Fifa18",
     "description": "FIFA 18 es un videojuego de fútbol, desarrollado por Electronic Arts y publicado por EA Sports Canadá y EA Sports Rumania. Es el 25.º de la serie de videojuegos de la FIFA",
-    "imageURL": "https://i11d.3djuegos.com/juegos/14368/fifa_18/fotos/ficha/fifa_18-3836563.jpg",
     "canWatch": false,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "videoURL": "https://www.youtube.com/embed/X30ZPDESlMA",
+    "imageURL": "https://as01.epimg.net/esports/imagenes/2018/01/23/portada/1516729103_695275_1516729169_noticia_normal.jpg"
   },
   {
     "game": "The Last of Us",
     "description": "The Last of Us es un videojuego de acción-aventura y supervivencia de terror desarrollado por Naughty Dog, lanzado por Sony Computer Entertainment y estrenado mundialmente el 14 de junio de 2013 para PlayStation 3",
     "imageURL": "https://im.ziffdavisinternational.com/ign_es/screenshot/default/last-of-us-logo_kev6.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 14.5,
+    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o&t=76s"
   },
   {
     "game": "Tomb Raider",
     "description": "Tomb Raider es una franquicia de medios, que incluye una serie de videojuegos, historietas y películas que giran alrededor de las aventuras de la arqueóloga británica Lara Croft",
-    "imageURL": "https://ewedit.files.wordpress.com/2017/12/riseoftomb.jpg?w=2000",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 8.3,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA",
+    "imageURL": "https://wallpaperscraft.com/image/rise_of_the_tomb_raider_lara_croft_bear_forest_art_ice_ax_101233_1920x1080.jpg"
   },
   {
     "game": "Killing Floor 2",
     "description": "In KILLING FLOOR 2, players descend into continental Europe where the outbreak caused by Horzine Biotech’s failed experiment has quickly spread and gained unstoppable momentum, essentially paralyzing the European Union— ",
     "imageURL": "https://news.xbox.com/wp-content/uploads/01-85.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 14.9,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   },
   {
     "game": "Cuphead",
     "description": "Cuphead es un videojuego independiente perteneciente al género de plataformas, desarrollado y producido por StudioMDHR Entertainment. El videojuego se caracteriza por su estilo gráfico inspirado en las caricaturas de los años 30",
     "imageURL": "http://sm.ign.com/ign_es/screenshot/default/cuphead-1920x1080-titled-hero-art_2jr5.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 29,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   },
   {
     "game": "Stardew Valley",
     "description": "Stardew Valley es un videojuego indie de simulación de granja desarrollado por Eric ConcernedApe Barone y publicado por Chucklefish Games",
     "imageURL": "http://thenerdstash.com/wp-content/uploads/2017/10/stardewval.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 18.1,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   },
   {
     "game": "Counter-Strike: Global Offensive",
     "description": "Counter-Strike: Global Offensive es un videojuego de disparos en primera persona desarrollado por Valve Corporation en cooperación con Hidden Path Entertainment, y es el cuarto juego de la saga Counter-Strike, sin contar Counter-Strike: Online",
     "imageURL": "https://i13b.3djuegos.com/juegos/7909/counterstrike_global_offensive/fotos/maestras/counterstrike_global_offensive-3447530.jpg",
     "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "leftTime": 17.2,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   },
   {
     "game": "League of Legends",
     "description": "League of Legends es un videojuego de género multiplayer online battle arena y deporte electrónico desarrollado por Riot Games para Microsoft Windows y OS X",
     "imageURL": "https://las.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/patch-notes-banner-3.jpg?itok=_0pr_Ybx",
-    "canWatch": true,
-    "videoURL": "https://www.youtube.com/watch?v=_I-BClNSq-o"
+    "canWatch": false,
+    "videoURL": "https://www.youtube.com/embed/watch?v=X30ZPDESlMA"
   }
 ]
 
