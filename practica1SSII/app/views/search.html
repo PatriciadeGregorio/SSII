@@ -1,0 +1,10 @@
+<div class="row pad-20">
+  <div ng-repeat="item in vm.items" class="col-md-4" ng-click="vm.getInfo(item)">
+      <div class="bsbug panel-juego  panel panel-info">
+          <div class="panel-heading">{{item.game}}</div>
+          <div class="panel-body">
+            <img style="width:100%; border-radius:4px;" ng-src="{{item.imageURL}}">
+          </div>
+      </div>
+  </div>
+</div>
