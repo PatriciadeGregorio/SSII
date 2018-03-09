@@ -1,4 +1,4 @@
-// Generated on 2018-02-09 using generator-angular 0.16.0
+// Generated on 2018-02-18 using generator-angular 0.16.0
 'use strict';
 
 // # Globbing
@@ -8,8 +8,7 @@
 // 'test/spec/**/*.js'
 
 module.exports = function (grunt) {
-  grunt.loadNpmTasks('grunt-build-control');
-  grunt.loadNpmTasks('grunt-include-js');
+
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
@@ -39,7 +38,7 @@ module.exports = function (grunt) {
         tasks: ['wiredep']
       },
       js: {
-        files: ['<%= yeoman.app %>/{,*/}*.js'],
+        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
         tasks: ['newer:jshint:all', 'newer:jscs:all'],
         options: {
           livereload: '<%= connect.options.livereload %>'
@@ -50,7 +49,7 @@ module.exports = function (grunt) {
         tasks: ['newer:jshint:test', 'newer:jscs:test', 'karma']
       },
       styles: {
-        files: ['<%= yeoman.app %>/{,*/}*.css'],
+        files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
         tasks: ['newer:copy:styles', 'postcss']
       },
       gruntfile: {
@@ -128,7 +127,7 @@ module.exports = function (grunt) {
       all: {
         src: [
           'Gruntfile.js',
-          '<%= yeoman.app %>/{,*/}*.js'
+          '<%= yeoman.app %>/scripts/{,*/}*.js'
         ]
       },
       test: {
@@ -148,7 +147,7 @@ module.exports = function (grunt) {
       all: {
         src: [
           'Gruntfile.js',
-          '<%= yeoman.app %>/{,*/}*.js'
+          '<%= yeoman.app %>/scripts/{,*/}*.js'
         ]
       },
       test: {
@@ -344,7 +343,7 @@ module.exports = function (grunt) {
           usemin: 'scripts/scripts.js'
         },
         cwd: '<%= yeoman.app %>',
-        src: '{,*/}*.html',
+        src: 'views/{,*/}*.html',
         dest: '.tmp/templateCache.js'
       }
     },
